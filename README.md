@@ -4,4 +4,4 @@ Website which consists of list of all projects done by first year students at ML
 
 CSE - B
 
-2nd - Sem
+3rd-4th - Sem
