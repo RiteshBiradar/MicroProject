@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./css/login.css">
+    <script type="module" src="firebaseauth.js" ></script>
 </head>
 <body>
 
@@ -16,9 +17,10 @@
       
           <!-- Login Form -->
           <form>
+            <div id="signUpMessage" class="messageDiv" style="display:none;"></div>
             <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
             <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-            <input type="submit" id="hello" class="fadeIn fourth" value="Log In">
+            <input type="submit" id="submitSignUp" class="fadeIn fourth" value="Log In">
           </form>
       
           <!-- Remind Passowrd -->
