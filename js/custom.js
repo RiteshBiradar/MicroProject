@@ -92,9 +92,9 @@ function openTab(){
 //     }
 // });
 
-let con = document.getElementById("submitSignUp");
-con.addEventListener("click", (e) => {
-  let popup = alert("Coming Soon");
-  console.log(popup);
-});
+// let con = document.getElementById("submitSignUp");
+// con.addEventListener("click", (e) => {
+//   let popup = alert("Coming Soon");
+//   console.log(popup);
+// });
 

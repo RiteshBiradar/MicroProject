@@ -29,6 +29,7 @@ import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.12
  const signUp=document.getElementById('submitSignUp');
  signUp.addEventListener('click', (event)=>{
     event.preventDefault();
+    const name=document.getElementById('name').value;
     const email=document.getElementById('login').value;
     const password=document.getElementById('password').value;
 
@@ -39,6 +40,7 @@ import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.12
     .then((userCredential)=>{
         const user=userCredential.user;
         const userData={
+            name : name,
             email: email
         };
         showMessage('Account Created Successfully', 'signUpMessage');
